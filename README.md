@@ -7,7 +7,7 @@ usage: cg-add-global-prefix.py [-h] [--token "MYTOKEN"]
 ```
 CloudGenix script
 ---------------------------------------
-
+```
 optional arguments:
   -h, --help            show this help message and exit
   --token "MYTOKEN", -t "MYTOKEN"
@@ -18,7 +18,7 @@ optional arguments:
   --csvfile csvfile, -c csvfile
                         the CSV Filename to read that contains IP Subnets to
                         add as Global Prefixes
-
+```
 # Notes:
 ```
 The push from this script is an atomic push which replaces all previous entries. 
